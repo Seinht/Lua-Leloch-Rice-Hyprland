@@ -1,0 +1,12 @@
+{
+  "workspace": {
+    "library": [
+      "/home/rui/.config/hypr/"
+    ]
+  },
+  "diagnostics": {
+    "globals": [
+      "hl"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "displays": [
+    {
+      "name": "eDP-1",
+      "description": "BOE 0x0696",
+      "x": 0,
+      "y": 768,
+      "physical_width": 1366,
+      "physical_height": 768,
+      "transform": "normal",
+      "scale": 1.0,
+      "scale_filter": null,
+      "refresh": 60.01,
+      "dpms": true,
+      "adaptive_sync": false,
+      "custom_mode": false,
+      "mirror": "",
+      "ten_bit": false,
+      "active": true
+    },
+    {
+      "name": "HDMI-A-1",
+      "description": "Hewlett Packard HP LE1851w CNC124NPBR",
+      "x": 0,
+      "y": 0,
+      "physical_width": 1366,
+      "physical_height": 768,
+      "transform": "normal",
+      "scale": 1.0,
+      "scale_filter": null,
+      "refresh": 59.79,
+      "dpms": true,
+      "adaptive_sync": false,
+      "custom_mode": false,
+      "mirror": "",
+      "ten_bit": false,
+      "active": true
+    },
+    {
+      "name": "DP-1",
+      "description": "Acer Technologies G195HQV LPB0D0298504",
+      "x": 1366,
+      "y": 0,
+      "physical_width": 1366,
+      "physical_height": 768,
+      "transform": "normal",
+      "scale": 1.0,
+      "scale_filter": null,
+      "refresh": 59.79,
+      "dpms": true,
+      "adaptive_sync": false,
+      "custom_mode": false,
+      "mirror": "",
+      "ten_bit": false,
+      "active": true
+    }
+  ],
+  "config": {
+    "view-scale": 0.15,
+    "snap-threshold": 10,
+    "indicator-timeout": 500,
+    "custom-mode": [],
+    "use-desc": false,
+    "confirm-timeout": 10,
+    "profile-bound-wallpapers": false
+  }
+}

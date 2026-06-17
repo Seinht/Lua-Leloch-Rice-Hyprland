@@ -1,0 +1,36 @@
+┏ hyprsunset v0.3.3 ━━╸
+┃
+┣ Loaded 0 profiles
+┣ Setting the temperature to 6000K (default)
+┃
+┣ Calculated the CTM to be [mat3x3: 0.35, 0, 0, 0, 0.33785042, 0, 0, 0, 0.32507417]
+┃
+┣ Running on Hyprland
+┣ Found hyprland-ctm-control-v1 supported with version 2, binding to v2
+┣ Found new output with ID 68, binding
+┣ Found new output with ID 69, binding
+┣ Found new output with ID 70, binding
+┣ Found 3 output(s), applying CTMs
+┣ Setting the temperature to 6000K (default)
+┃
+┣ Calculated the CTM to be [mat3x3: 0.35, 0, 0, 0, 0.33785042, 0, 0, 0, 0.32507417]
+┃
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+[TRACE] [core] got poll event
+┣ Exiting on user interrupt
+╹
+[TRACE] Exiting loop
+[TRACE] [core] got poll event
