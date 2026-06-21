@@ -79,7 +79,7 @@ button:hover {
 
 #taskbar button.active {
   background-color: transparent;
-  border: 2px solid @color4;
+  border-top: 2px solid @color4;
 }
 
 #mode {
