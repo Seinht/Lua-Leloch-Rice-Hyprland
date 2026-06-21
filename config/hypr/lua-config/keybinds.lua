@@ -4,7 +4,7 @@ local fileManager = "thunar"
 local browser = "~/Software/Zen-Browser/zen/zen-bin"
 local browser1 = "librewolf"
 local browser2 = "helium-browser"
-local launcher = "rofi -show drun -theme $HOME/git-related/theme.rasi"
+local launcher = "rofi -show drun -theme $HOME/.config/rofi/theme.rasi"
 local notification = "swaync-client -t"
 local lock = "hyprlock"
 local spotify = "spotify-launcher"
@@ -46,11 +46,11 @@ hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("hyprpicker -a"))
 hl.bind("CTRL + ALT + Delete", hl.dsp.exec_cmd("wlogout"))
 hl.bind(
 	"CTRL + ALT + H",
-	hl.dsp.exec_cmd("cliphist list | rofi -dmenu -theme /home/rui/git-related/theme.rasi | cliphist decode | wl-copy")
+	hl.dsp.exec_cmd("cliphist list | rofi -dmenu -theme /home/rui/.config/rofi/theme.rasi | cliphist decode | wl-copy")
 )
 hl.bind(
 	"CTRL + ALT + D",
-	hl.dsp.exec_cmd("cliphist list | rofi -dmenu -theme /home/rui/git-related/theme.rasi | cliphist delete")
+	hl.dsp.exec_cmd("cliphist list | rofi -dmenu -theme /home/rui/.config/rofi/theme.rasi | cliphist delete")
 )
 
 -- Move focus on desired window
