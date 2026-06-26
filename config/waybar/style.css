@@ -2,8 +2,8 @@
 
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: Shippori Mincho, NotoSerifCJK, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 17.5px;
+  font-family: Shippori Mincho, sans-serif;
+  font-size: 19.5px;
   /*border-radius: 8px;*/
   border-radius: 0;
 }
@@ -131,9 +131,6 @@ button:hover {
 }
 
 .modules-right {
-  padding: 0px 15px;
-  padding-left: 0;
-  padding-right: 0;
   /*margin-bottom: 6px;*/
   /*margin-right: 4px;*/
   background: alpha(@background, 0.0);
@@ -141,14 +138,13 @@ button:hover {
 
 .module-center {
   background: @background;
-  padding: 10px 0;
 }
 
 #clock {
+  font-family: Shippori Mincho, serif;
   padding-bottom: 3px;
   /*margin-bottom: 6px;*/
   color: @foreground;
-  font-size: 19.5px;
   background: alpha(@background, 0.0);
 }
 
@@ -233,14 +229,15 @@ label:focus {
   color: @foreground;
   margin: 0;
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 20px;
 }
 
 #bluetooth {
   color: @foreground;
   margin: 0;
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 #custom-notification {
@@ -263,25 +260,31 @@ label:focus {
   margin-right: 10px;
 }
 
+#custom-power {
+  padding-bottom: 1.5px;
+  padding-right: 20px;
+}
+
 #custom-reboot {
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 #custom-lock {
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 #custom-quit {
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-right: 22px;
 }
 
 #pulseaudio {
   margin: 0;
   padding-bottom: 3px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 20px;
   color: @foreground;
 }
 
